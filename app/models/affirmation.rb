@@ -1,3 +1,3 @@
 class Affirmation < ApplicationRecord
-  validates :description, presence: true
+  validates :description, :category, presence: true
 end
