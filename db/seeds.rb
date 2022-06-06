@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first
+# rubocop:disable Lint/UselessAssignment, Layout/LineLength
+
 aff1 = Affirmation.create!(description: 'I have a vibrant and successful love life; I am deeply admired.', category: 'career')
 aff2 = Affirmation.create!(description: 'I have the power to create all the success and prosperity I desire.', category: 'career')
 aff3 = Affirmation.create!(description: 'I let go of old, negative beliefs that have stood in the way of my success.', category: 'career')
@@ -48,3 +50,4 @@ aff38 = Affirmation.create!(description: 'I love myself as I am.', category: 'lo
 aff39 = Affirmation.create!(description: 'I love who I am am so does my partner.', category: 'love')
 aff40 = Affirmation.create!(description: 'I find love everywhere I go.', category: 'love')
 aff42 = Affirmation.create!(description: 'My heart is prepared to receive love.', category: 'love')
+# rubocop:enable Lint/UselessAssignment, Layout/LineLength
