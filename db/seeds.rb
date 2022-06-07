@@ -50,4 +50,5 @@ aff38 = Affirmation.create!(description: 'I love myself as I am.', category: 'lo
 aff39 = Affirmation.create!(description: 'I love who I am am so does my partner.', category: 'love')
 aff40 = Affirmation.create!(description: 'I find love everywhere I go.', category: 'love')
 aff42 = Affirmation.create!(description: 'My heart is prepared to receive love.', category: 'love')
+aff43 = Affirmation.create!(description: 'My heart is prepared to give love.', category: 'love')
 # rubocop:enable Lint/UselessAssignment, Layout/LineLength
