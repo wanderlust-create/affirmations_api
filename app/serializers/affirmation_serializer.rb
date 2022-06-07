@@ -1,4 +1,4 @@
 class AffirmationSerializer
   include JSONAPI::Serializer
-  attributes :description
+  attributes :description, :category
 end
